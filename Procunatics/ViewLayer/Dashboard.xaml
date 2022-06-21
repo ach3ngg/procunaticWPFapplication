@@ -28,7 +28,6 @@
             <Grid.RowDefinitions>
                 <RowDefinition Height = "2*"/>
                 <RowDefinition Height = "6*"/>
-                <RowDefinition Height = "1*"/>
             </Grid.RowDefinitions>
             
             <Grid Grid.Column="0"
@@ -47,7 +46,7 @@
                         <TextBlock
                             FontSize="300"
                             FontWeight="Bold" 
-                            Text="Procunatics" HorizontalAlignment="Center" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" FontStretch="Medium"/>
+                            Text="Procunakif" HorizontalAlignment="Center" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" FontStretch="Medium"/>
 
                     </StackPanel>
                 </Viewbox>
@@ -91,6 +90,8 @@
 
                         <Button Style="{StaticResource MaterialDesignFloatingActionButton}" 
                                 HorizontalAlignment="Center"
+                                Name="BtnUser1" 
+                                Click="BtnUser1_Click"
                                 BorderBrush="{x:Null}" 
                                 Background="{x:Null}" 
                                 Foreground="Black" 
@@ -101,6 +102,8 @@
 
                         <Button Style="{StaticResource MaterialDesignFloatingActionButton}" 
                                     HorizontalAlignment="Center"
+                                    Name="BtnUser2" 
+                                    Click="BtnUser2_Click"
                                     BorderBrush="{x:Null}" 
                                     Background="{x:Null}" 
                                     Foreground="Black" 
@@ -113,6 +116,8 @@
 
                         <Button Style="{StaticResource MaterialDesignFloatingActionButton}" 
                                 HorizontalAlignment="Center"
+                                Name="BtnUser3" 
+                                Click="BtnUser3_Click"
                                 BorderBrush="{x:Null}" 
                                 Background="{x:Null}" 
                                 Foreground="Black" 
@@ -128,8 +133,10 @@
                 </Viewbox>
             </Grid>
 
-            <Grid Grid.Column="1" Grid.Row="1" Grid.RowSpan="2" Background="#F6F5F8" Name="RenderPages">
-
+            <Grid Grid.Column="1" 
+                  Grid.Row="1" 
+                  Grid.RowSpan="2" 
+                  Name="RenderPages">
             </Grid>
 
         </Grid>

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\Git Repo\Procunatics\Procunatics\obj\Debug\
+D:\Git Repo\procunaticWPFapplication\Procunatics\obj\Debug\
 Procunatics
 none
 false
 DEBUG;TRACE
-D:\Git Repo\Procunatics\Procunatics\App.xaml
-2111421863
+D:\Git Repo\procunaticWPFapplication\Procunatics\App.xaml
+6-1515128402
 
-7363981777
-123-1964942217
-ViewLayer\Dashboard.xaml;ViewLayer\MainWindow.xaml;
+111086647982
+1711581092554
+ViewLayer\Dashboard.xaml;ViewLayer\MainWindow.xaml;ViewLayer\polist.xaml;ViewLayer\requisitionform.xaml;ViewLayer\usercontrolDashboard.xaml;ViewLayer\usercontrolDelivery.xaml;
 
 False
 

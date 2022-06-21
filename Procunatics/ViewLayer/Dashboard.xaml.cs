@@ -25,7 +25,24 @@ namespace Procunatics.ViewLayer
         public Dashboard()
         {
             InitializeComponent();
+            RenderPages.Children.Clear();
+            RenderPages.Children.Add(new usercontrolDashboard());
         }
 
+        private void BtnUser1_Click(object sender, RoutedEventArgs e)
+        {
+            RenderPages.Children.Clear();
+            RenderPages.Children.Add(new usercontrolDashboard());
+        }
+        private void BtnUser2_Click(object sender, RoutedEventArgs e)
+        {
+            RenderPages.Children.Clear();
+            RenderPages.Children.Add(new usercontrolDelivery());
+        }
+        private void BtnUser3_Click(object sender, RoutedEventArgs e)
+        {
+            RenderPages.Children.Clear();
+            RenderPages.Children.Add(new usercontrolDashboard());
+        }
     }
 }
